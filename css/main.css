@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+p {
+    color:black
+    float:left
+}
+
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
+div{
+    float: left
+}
